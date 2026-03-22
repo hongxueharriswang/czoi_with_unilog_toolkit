@@ -13,7 +13,7 @@ from czoi.core import System, Zone, Role, User, Application, Operation, GammaMap
 from czoi.permission import SimpleEngine
 from czoi.constraint import Constraint, ConstraintType, ConstraintManager
 from czoi.neural import NeuralComponent, AnomalyDetector
-from czoi.daemon import Daemon, SecurityDaemon, ComplianceDaemon
+from czoi.daemons import Daemon, SecurityDaemon, ComplianceDaemon
 from czoi.simulation import SimulationEngine
 from czoi.embedding import EmbeddingService, InMemoryVectorStore
 from czoi.unilog import UniLangParser, InferenceEngine, CZOIModelAdapter

@@ -6,7 +6,7 @@ from .permission import PermissionEngine, SimpleEngine
 from .constraint import Constraint, ConstraintType, ConstraintManager
 from .neural import NeuralComponent, AnomalyDetector, RoleMiner
 from .embedding import VectorStore, InMemoryVectorStore, EmbeddingService
-from .daemon import Daemon, SecurityDaemon, ComplianceDaemon
+from .daemons import Daemon, SecurityDaemon, ComplianceDaemon
 from .simulation import SimulationEngine
 from .storage import Storage
 from . import utils, logic
