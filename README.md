@@ -350,7 +350,7 @@ Planned directions include: additional UniLang solvers (temporal model checking)
 ## License
 
 This project’s license is defined in `LICENSE` at the repository root. (If not present yet, choose one—e.g., MIT or Apache‑2.0—and update this section accordingly.) *(Administrative note for maintainers.)*  
-*Repository:* <https://github.com/hongxueharriswang/czoi_toolkit> 
+*Repository:* <https://github.com/hongxueharriswang/czoi_with_unilog_toolkit> 
 
 ***
 
