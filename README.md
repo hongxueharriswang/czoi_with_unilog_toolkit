@@ -4,6 +4,8 @@
 
 > **Constrained Zoned‑Object Infrastructure (CZOI)** — a modular Python toolkit for building, simulating, and maintaining **organizational intelligent information systems (OIIS)** with zones, roles, permissions, formal constraints (UniLang), neural components, semantic embeddings, daemons, and a simulation engine. 
 
+This version of the CZOI toolkit incorporates UniLog for constraint representation and reasoning, enabling more precise and expressive modeling and resolution of diverse constraints. This approach improves upon earlier versions of CZOI, which relied on native Python expressions for constraint specification and handling.
+
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Alpha%200.1.0-orange.svg)](#roadmap)
