@@ -35,10 +35,10 @@ This version of the CZOI toolkit incorporates UniLog for constraint representati
 
 ## Why CZOI?
 
-CZOI is a concrete Python implementation of the **Constrained Zoned‑Object Architecture (CZOA)**, which unifies concepts from Constrained Object Hierarchies (COH) with practical **zoned role‑based access control**, constraints, logic, and learning. It models an OIIS as a 10‑tuple  
+CZOI is a concrete Python implementation of the **Constrained Zoned‑Object Architecture (CZOA)**, which unifies concepts from Constrained Object Hierarchies (COH) with practical **zoned role‑based (ZRB) system design, implementation, maintenance and access control**, constraints, logic, and learning. It models an intelligent integrated organizational system as a 10‑tuple  
 $$\mathcal{S} = (Z, R, U, A, O, N, E, \Gamma, \Phi, \Delta)$$ — zones, roles, users, apps/operations, neural components, embeddings, constraints (Gamma), permission calculus (Phi), and daemons. This gives you a single end‑to‑end framework to **design, verify, operate, and evolve** real organizational systems. 
 
-CZOI specializes the more general **GISMOL** toolkit (for COH), adding zones, roles, permissions, and gamma mappings while **reusing a common logic foundation (UniLang)**. 
+CZOI specializes the more general **GISMOL** toolkit (for COH), adding zones, roles, permissions, and gamma mappings while **reusing a common logic foundation (UniLog/UniLang)**. 
 
 ***
 
