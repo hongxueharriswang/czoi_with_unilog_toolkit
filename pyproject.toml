@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "czoi"
+version = "0.2.0"
+description = "CZOI: Constrained Zoned-Object Implementation toolkit"
+authors = [{name = "Dr. Harris Wang"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "antlr4-python3-runtime>=4.9",
+    "networkx>=3.1",
+]
+keywords = ["CZOI", "RBAC", "constraints", "modal logic", "temporal logic", "fuzzy logic", "knowledge representation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = ["czoi", "czoi.logic", "czoi.logic.ast", "czoi.logic.parser", "czoi.logic.engine", "czoi.logic.integration", "czoi.logic.utils", "czoi.integrations"]
+include-package-data = true
+
+[project.scripts]
+czoi = "czoi.cli:main"

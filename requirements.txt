@@ -1,0 +1,4 @@
+antlr4-python3-runtime==4.13.2
+networkx==3.6.1
+numpy==2.4.3
+simpy==4.1.1

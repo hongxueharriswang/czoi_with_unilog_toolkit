@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.db
+*.log
+.env
+venv/
+env/
+.coverage
+htmlcov/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual Environments ---
+venv/
+.venv_czoi_unilog/
+env/
+ENV/
+*.env
+.vscode/
